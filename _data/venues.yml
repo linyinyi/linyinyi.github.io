@@ -1,0 +1,50 @@
+# Venue links for publication `abbr` badges: when a bib entry's abbr matches a
+# key below, the badge links to `url` (and can be tinted with `color`).
+"RSE":
+  url: https://www.sciencedirect.com/journal/remote-sensing-of-environment
+"JAG":
+  url: https://www.sciencedirect.com/journal/international-journal-of-applied-earth-observation-and-geoinformation
+"JSTARS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4609443
+"TGRS":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=36
+"GRSL":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8859
+"npj UrbanSust":
+  url: https://www.nature.com/npjurbansustain/
+"NatComms":
+  url: https://www.nature.com/ncomms/
+"CommsEarthEnv":
+  url: https://www.nature.com/commsenv/
+"AnnalsAAG":
+  url: https://www.tandfonline.com/journals/raag21
+"STOTEN":
+  url: https://www.sciencedirect.com/journal/science-of-the-total-environment
+"SCS":
+  url: https://www.sciencedirect.com/journal/sustainable-cities-and-society
+"EnvPollut":
+  url: https://www.sciencedirect.com/journal/environmental-pollution
+"IJHEH":
+  url: https://www.sciencedirect.com/journal/international-journal-of-hygiene-and-environmental-health
+"EcolInd":
+  url: https://www.sciencedirect.com/journal/ecological-indicators
+"UFUG":
+  url: https://www.sciencedirect.com/journal/urban-forestry-and-urban-greening
+"JBE":
+  url: https://www.sciencedirect.com/journal/journal-of-building-engineering
+"RemoteSens":
+  url: https://www.mdpi.com/journal/remotesensing
+"Sensors":
+  url: https://www.mdpi.com/journal/sensors
+"IJRS":
+  url: https://www.tandfonline.com/journals/tres20
+"FrontMarSci":
+  url: https://www.frontiersin.org/journals/marine-science
+"The Innovation":
+  url: https://www.cell.com/the-innovation/home
+"AdvSustSyst":
+  url: https://onlinelibrary.wiley.com/journal/23667486
+"EJRS":
+  url: https://www.sciencedirect.com/journal/the-egyptian-journal-of-remote-sensing-and-space-science
+"IGARSS":
+  url: https://www.grss-ieee.org/events/igarss/

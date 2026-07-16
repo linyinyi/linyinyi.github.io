@@ -1,0 +1,92 @@
+# Research themes — single source of truth for the homepage focus cards and the
+# Research page. Edit text here; layout lives in _pages/about.md and _pages/research.md.
+vision: >
+  My long-term goal is to build high-resolution, explainable, and socially meaningful
+  geospatial evidence — evidence that helps cities and communities adapt to climate
+  extremes, protect public health, and grow more sustainably.
+
+themes:
+  - slug: geoai
+    title: GeoAI and multisource remote sensing
+    short: Methods that turn multisource satellite observations into reliable evidence.
+    summary: >
+      I develop geospatial artificial intelligence methods that fuse optical, SAR, LiDAR,
+      hyperspectral, and nighttime-light observations into consistent, decision-ready maps.
+      This work combines machine learning and deep learning with physical understanding of
+      the urban environment, and scales through cloud platforms such as Google Earth Engine.
+    questions:
+      - How can multisource satellite observations be fused when clouds, shadows, and sensor differences make any single source unreliable?
+      - How do we make deep-learning-based mapping transparent enough to support environmental policy?
+    methods: Deep learning and machine learning, data fusion, sparse representation, fuzzy-set approaches, Google Earth Engine, spatially explicit modelling
+    scale: City to global; annual to intra-year time series
+    image: /assets/img/research/theme-geoai.svg
+    keywords: [GeoAI, remote sensing, SAR, LiDAR, hyperspectral, nighttime lights, deep learning]
+    bibfilter: geoai
+    publications:
+      - key: lin2020incorporating
+      - key: lin2021leveraging
+      - key: lin2019improving
+
+  - slug: urban-health
+    title: Urban environmental health
+    short: How heat, air pollution, and compound exposures shape health and inequality.
+    summary: >
+      Cities concentrate people and environmental hazards. I quantify urban heat, air
+      pollution, and their compound exposure at the scales where people actually live —
+      buildings, neighbourhoods, and communities — and link them to mortality risk, health
+      inequalities, and the social determinants that make some populations, including older
+      adults, more vulnerable than others.
+    questions:
+      - How much larger are health risks when urban heat islands and air-pollution islands compound, and who bears them?
+      - Which communities face the greatest combined environmental burden, and why?
+    methods: Satellite-derived exposure mapping, structural equation modelling, multiscale spatial analysis, health-registry linkage
+    scale: Building and community scale to global city samples
+    image: /assets/img/research/theme-health.svg
+    keywords: [urban heat, air pollution, compound exposure, mortality, environmental inequality, ageing populations]
+    bibfilter: urban-health
+    publications:
+      - key: lin2026compound
+      - key: zhang2020global
+      - key: zhang2023streetview
+
+  - slug: climate-resilience
+    title: Climate risk and community resilience
+    short: Measuring how communities absorb and recover from climate extremes.
+    summary: >
+      Floods, droughts, and extreme temperatures increasingly arrive together. I map where
+      compound and cascading climate risks concentrate, and use satellite evidence — from
+      disaster-impact records to monthly nighttime lights — to measure how communities are
+      disturbed by shocks and how quickly they recover, with attention to climate
+      vulnerability and environmental justice.
+    questions:
+      - Where are communities least able to absorb compound floods, droughts, and heat extremes?
+      - Can longitudinal satellite observations reveal resilience — disturbance and recovery — directly?
+    methods: Disaster-impact spatialization, random forest, fuzzy-logic integration, time-series analysis of nighttime lights, high-resolution risk assessment
+    scale: Community to global (multi-kilometre grids); monthly to multi-decadal
+    image: /assets/img/research/theme-resilience.svg
+    keywords: [floods, droughts, extreme temperature, compound risk, community resilience, climate adaptation, environmental justice]
+    bibfilter: climate-resilience
+    publications:
+      - key: guo2022seasonal
+      - key: liang2023timefrequency
+
+  - slug: urbanization
+    title: Sustainable urbanization
+    short: Long-term evidence on urban growth and its environmental consequences.
+    summary: >
+      Understanding how cities expand — and at what environmental and social cost — requires
+      long, consistent observation. I map urban land-cover change and expansion from optical
+      and SAR time series, monitor urban growth across regions, and connect these patterns to
+      urban–rural inequalities and the policy questions of sustainable, resilient cities.
+    questions:
+      - How do urban expansion and renewal unfold across decades, and what do they displace?
+      - Which spatial evidence do policymakers need to steer urbanization toward sustainability?
+    methods: Optical–SAR time-series analysis, impervious-surface mapping, change detection, urban growth monitoring
+    scale: Neighbourhood renewal to global expansion; 1990s to present
+    image: /assets/img/research/theme-urbanization.svg
+    keywords: [urban expansion, land-cover change, impervious surface, urban–rural inequality, sustainable cities]
+    bibfilter: urbanization
+    publications:
+      - key: lin2022intrayear
+      - key: wei2024coastal
+      - key: loo2024cities

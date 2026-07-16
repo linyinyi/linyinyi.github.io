@@ -1,0 +1,7 @@
+# Google Scholar citation cache, refreshed automatically by the scheduled
+# .github/workflows/update-citations.yml workflow (bin/update_scholar_citations.py).
+# The workflow is independent of site deployment: if a refresh fails, the site
+# still builds and deploys with the last cached values.
+metadata:
+  last_updated: ""
+papers: {}

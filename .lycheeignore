@@ -1,0 +1,20 @@
+# Links excluded from the lychee broken-link checks.
+# One pattern per line; see https://github.com/lycheeverse/lychee#ignoring-links
+_pages/404.md
+README.md
+AGENTS.md
+.github/instructions/bibtex-bibliography.instructions.md
+.github/instructions/liquid-templates.instructions.md
+.github/instructions/markdown-content.instructions.md
+.github/instructions/yaml-configuration.instructions.md
+SEO.md
+# Scholarly databases and publishers that block automated link checkers
+https://scholar.google.com/
+https://www.researchgate.net/
+https://www.sciencedirect.com/
+https://ieeexplore.ieee.org/
+https://www.tandfonline.com/
+https://onlinelibrary.wiley.com/
+https://www.linkedin.com/
+# Generated at deploy time by the render-cv workflow; may not exist in a fresh checkout
+/assets/rendercv/rendercv_output/Yinyi_Lin_CV.pdf

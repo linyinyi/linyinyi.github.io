@@ -1,0 +1,14 @@
+# Co-author links for the publications page.
+# When a BibTeX author matches a key below (lower-cased last name, no accents)
+# plus one of the listed first-name forms, their name is linked to `url`.
+#
+# TODO: add verified personal/institutional pages for frequent co-authors, e.g.:
+#
+# "zhang":
+#   - firstname: ["Hongsheng", "H."]
+#     url: # TODO: verified homepage URL
+#
+# "gong":
+#   - firstname: ["Peng", "P."]
+#     url: # TODO: verified homepage URL
+{}

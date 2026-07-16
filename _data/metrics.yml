@@ -1,0 +1,18 @@
+# "Research by the numbers" — homepage metrics section.
+#
+# INTEGRITY RULE: every value here must be verified on the date given in
+# `last_updated` (e.g., against Google Scholar or Scopus). Citation counts are
+# dynamic and differ across databases, so record the source alongside the value.
+# The section is hidden site-wide while `enabled: false`.
+enabled: false # set to true only after filling in verified values below
+last_updated: # e.g., 2026-07-16 — the date the values were last checked
+source: # e.g., "Google Scholar" or "Scopus"
+items:
+  - label: Peer-reviewed publications
+    value: # TODO: verified count
+  - label: Citations
+    value: # TODO: verified count from `source`
+  - label: h-index
+    value: # TODO: verified value from `source`
+  - label: Cities and regions studied
+    value: # TODO: optional, only if verifiable
