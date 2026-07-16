@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://linyinyi.github.io/sitemap.xml
