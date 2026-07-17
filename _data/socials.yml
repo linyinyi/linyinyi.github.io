@@ -3,11 +3,8 @@
 # https://github.com/george-gca/jekyll-socials).
 email: yinyilin@hku.hk # institutional email address
 scholar_userid: 5q5R47kAAAAJ # Google Scholar ID (verified)
-# orcid_id: # TODO: add verified ORCID iD, format 0000-0000-0000-0000 ([ORCID_ID])
-github_username: linyinyi # TODO: confirm this is the intended public GitHub profile ([GITHUB_PROFILE_URL])
-# linkedin_username: # TODO: add LinkedIn username ([LINKEDIN_URL])
+orcid_id: 0000-0002-8769-8506 # ORCID iD (verified)
+linkedin_username: yinyi-lin # https://www.linkedin.com/in/yinyi-lin/
 research_gate_profile: Yinyi-Lin-2 # ResearchGate profile suffix (verified)
-# Note: the CV PDF is linked from the navbar CV page, the homepage buttons, and
-# the contact page (an unknown key here would inject `null` into the Schema.org
-# sameAs list, so it is intentionally not listed as a social icon).
-rss_icon: true # comment this line to hide the RSS icon
+# Note: the CV PDF is linked from the CV page only (an unknown key here would
+# inject `null` into the Schema.org sameAs list, so it is not listed as an icon).

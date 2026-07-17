@@ -12,10 +12,9 @@ The most reliable way to reach me is by email: <a href="mailto:yinyilin@hku.hk">
 ## Profiles
 
 - [Google Scholar](https://scholar.google.com/citations?user=5q5R47kAAAAJ&hl=en)
+- [ORCID](https://orcid.org/0000-0002-8769-8506)
+- [LinkedIn](https://www.linkedin.com/in/yinyi-lin/)
 - [ResearchGate](https://www.researchgate.net/profile/Yinyi-Lin-2)
-- [GitHub](https://github.com/linyinyi) <!-- TODO: confirm intended public GitHub profile ([GITHUB_PROFILE_URL]) -->
-- ORCID <!-- TODO: add verified ORCID iD and link ([ORCID_ID]) -->
-- LinkedIn <!-- TODO: add LinkedIn URL ([LINKEDIN_URL]) -->
 
 ## Collaboration
 

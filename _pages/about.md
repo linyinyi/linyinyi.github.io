@@ -105,7 +105,3 @@ I am a geospatial scientist studying how urbanization and climate extremes shape
 {% include news.liquid limit=true %}
 
 <p><a href="/news/">All news →</a></p>
-
-## Collaboration
-
-I welcome conversations about research collaboration — particularly on GeoAI and remote sensing methods, urban environmental health, climate resilience, and sustainable urbanization — as well as interdisciplinary projects, joint grant proposals, and opportunities to mentor students. The best way to reach me is by <a href="mailto:yinyilin@hku.hk">email</a>; more options are on the <a href="/contact/">contact page</a>.

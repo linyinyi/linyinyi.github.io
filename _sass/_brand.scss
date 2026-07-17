@@ -136,7 +136,7 @@ button:focus-visible,
 /* ---------- Focus cards (homepage research themes) ---------- */
 .yl-card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
   gap: 1rem;
   margin: 1.25rem 0;
 }
@@ -391,6 +391,29 @@ button:focus-visible,
     border: var(--yl-card-border);
     border-radius: var(--yl-radius);
     display: block;
+  }
+}
+
+/* ---------- Homepage section flow ---------- */
+/* Each homepage section heading clears the floated portrait, so the focus-card
+   grid, feature cards, and publication list expand to the full content width. */
+.clearfix > h2 {
+  clear: both;
+}
+
+/* On the homepage and research page, let publication entries fill the row
+   (the bib layout reserves a right-hand column that is unused there).
+   The publications page keeps the stock layout. */
+.clearfix .publications .row > .col-sm-8,
+.yl-theme .publications .row > .col-sm-8 {
+  flex: 1 1 0;
+  max-width: 100%;
+}
+
+/* ---------- Contact icons (about page footer) ---------- */
+@media (max-width: 36rem) {
+  .social .contact-icons {
+    font-size: 2.4rem;
   }
 }
 

@@ -14,8 +14,10 @@ cv:
   location: Hong Kong
 
   social_networks:
-    - network: GitHub
-      username: linyinyi # TODO: confirm intended public GitHub profile
+    - network: ORCID
+      username: 0000-0002-8769-8506
+    - network: LinkedIn
+      username: yinyi-lin
 
   sections:
     Summary:
