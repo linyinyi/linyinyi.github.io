@@ -72,6 +72,13 @@ h2 {
 
 .post-header .desc {
   font-family: var(--yl-sans);
+  margin-bottom: 24px;
+}
+
+/* extra rhythm between homepage intro paragraphs; also lines up the bottom of
+   the CTA button row with the bottom edge of the floated portrait on desktop */
+.clearfix > p {
+  margin-bottom: 24px;
 }
 
 .yl-tagline {
@@ -170,7 +177,7 @@ button:focus-visible,
       display: block;
       width: 100%;
       height: auto;
-      max-height: 5rem;
+      max-height: 5.5rem;
     }
   }
 
@@ -416,6 +423,18 @@ button:focus-visible,
 @media (max-width: 36rem) {
   .social .contact-icons {
     font-size: 2.4rem;
+  }
+}
+
+/* ---------- Mobile profile portrait ---------- */
+@media (max-width: 36rem) {
+  .profile,
+  .profile.float-right,
+  .profile.float-left {
+    float: none;
+    width: 72%;
+    max-width: 15rem;
+    margin: 0 auto 0.75rem;
   }
 }
 

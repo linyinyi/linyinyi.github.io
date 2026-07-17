@@ -10,8 +10,6 @@ profile:
   align: right
   image: profile/yinyi-lin.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p><a href="mailto:yinyilin@hku.hk">yinyilin@hku.hk</a></p>
 
 selected_papers: false # rendered manually below to control section order
 social: true # includes social icons at the bottom of the page

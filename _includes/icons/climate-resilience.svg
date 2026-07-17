@@ -1,12 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 70" fill="none" aria-hidden="true" focusable="false">
-  <!-- water -->
-  <g stroke="var(--global-theme-color)" stroke-width="3" stroke-linecap="round">
-    <path d="M12 52 q10 -9 20 0 t20 0 t20 0 t20 0 t20 0" />
-    <path d="M22 62 q10 -7 20 0 t20 0 t20 0 t20 0" opacity="0.55" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 90" fill="none" aria-hidden="true" focusable="false">
+  <!-- axes (performance vs time) -->
+  <g stroke="var(--global-theme-color)" stroke-width="2.5" stroke-linecap="round">
+    <path d="M16 14 V74 H128" />
+    <line x1="13" y1="30" x2="16" y2="30" stroke-width="1.5" />
+    <line x1="44" y1="74" x2="44" y2="77" stroke-width="1.5" />
+    <line x1="72" y1="74" x2="72" y2="77" stroke-width="1.5" />
+    <line x1="100" y1="74" x2="100" y2="77" stroke-width="1.5" />
   </g>
-  <!-- recovery curve with arrowhead -->
-  <g stroke="var(--global-highlight-color)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M18 40 C 48 42 78 34 112 12" />
-    <path d="M101 13 l11 -1 l-3 11" />
-  </g>
+  <!-- pre-shock baseline -->
+  <line
+    x1="16"
+    y1="30"
+    x2="128"
+    y2="30"
+    stroke="var(--global-theme-color)"
+    stroke-width="2"
+    stroke-dasharray="5 4"
+    opacity="0.6"
+  />
+  <!-- shock event -->
+  <path
+    d="M46 8 l-5 10 h6 l-5 10"
+    stroke="var(--global-theme-color)"
+    stroke-width="2.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- disturbance and recovery trajectory -->
+  <path
+    d="M18 30 H42 C 47 30 50 56 57 61 C 70 69 92 44 108 32 L 126 30"
+    stroke="var(--global-highlight-color)"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <!-- recovery marker -->
+  <circle cx="57" cy="61" r="3" fill="var(--global-highlight-color)" stroke="none" />
 </svg>
