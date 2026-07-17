@@ -394,6 +394,27 @@ button:focus-visible,
   }
 }
 
+/* ---------- Navbar institutional logo ---------- */
+.yl-navbar-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  flex-shrink: 0;
+
+  img {
+    height: 30px;
+    width: auto;
+  }
+
+  @media (max-width: 36rem) {
+    margin-right: 0.6rem;
+
+    img {
+      height: 24px;
+    }
+  }
+}
+
 /* ---------- Motion preferences ---------- */
 @media (prefers-reduced-motion: reduce) {
   .yl-btn,

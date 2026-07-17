@@ -1,9 +1,9 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: Research projects spanning GeoAI methods, urban environmental health, climate resilience, and sustainable urbanization. Status labels distinguish published, ongoing, and developing work.
-nav: true
+description: Research projects spanning GeoAI methods, urban environmental health, and sustainable urbanization.
+nav: false # hidden from the navigation; set to true to restore the Projects tab
 nav_order: 3
 horizontal: false
 ---

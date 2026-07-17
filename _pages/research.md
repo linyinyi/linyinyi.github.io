@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /research/
-title: research
+title: Research
 description: Four connected research themes — GeoAI and multisource remote sensing, urban environmental health, climate risk and community resilience, and sustainable urbanization.
 nav: true
 nav_order: 1
@@ -56,7 +56,7 @@ The four themes below build on one another. Methods developed under GeoAI and mu
 </section>
 {% endfor %}
 
-## research vision
+## Research vision
 
 {{ site.data.research.vision }}
 

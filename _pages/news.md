@@ -1,10 +1,10 @@
 ---
 layout: page
-title: news
+title: News
 permalink: /news/
 description: Publications, presentations, projects, teaching, and career updates.
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
 {% include news.liquid %}

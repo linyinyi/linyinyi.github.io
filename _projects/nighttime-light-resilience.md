@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false # hidden from the site until the work can be shown publicly
 title: Community resilience from nighttime lights
 description: "Ongoing · Longitudinal satellite evidence of how communities are disturbed by — and recover from — climate and social shocks."
 img: assets/img/projects/project-ntl.svg

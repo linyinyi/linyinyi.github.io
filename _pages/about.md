@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: >
   <span class="yl-tagline">GeoAI and remote sensing for healthier, more resilient, and sustainable cities.</span><br>
@@ -8,12 +8,10 @@ subtitle: >
 
 profile:
   align: right
-  image: profile/prof-pic-placeholder.svg # TODO: replace with a professional portrait, e.g. profile/prof-pic.jpg ([PROFILE_PHOTO_PATH])
+  image: profile/yinyi-lin.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Department of Geography</p>
-    <p>The University of Hong Kong</p>
-    <p>Hong Kong</p>
+    <p><a href="mailto:yinyilin@hku.hk">yinyilin@hku.hk</a></p>
 
 selected_papers: false # rendered manually below to control section order
 social: true # includes social icons at the bottom of the page
@@ -32,10 +30,9 @@ I am a geospatial scientist studying how urbanization and climate extremes shape
 <div class="yl-cta-row">
   <a class="yl-btn yl-btn-primary" href="/research/">View research</a>
   <a class="yl-btn" href="/publications/">Selected publications</a>
-  <a class="yl-btn" href="/assets/rendercv/rendercv_output/Yinyi_Lin_CV.pdf">Download CV</a>
 </div>
 
-## current research focus
+## Current research focus
 
 <div class="yl-card-grid" role="list">
   {% for theme in site.data.research.themes %}
@@ -47,7 +44,7 @@ I am a geospatial scientist studying how urbanization and climate extremes shape
   {% endfor %}
 </div>
 
-## featured research
+## Featured research
 
 <div class="yl-feature-list">
 
@@ -65,31 +62,19 @@ I am a geospatial scientist studying how urbanization and climate extremes shape
 
   <article class="yl-feature-card">
     <div class="yl-feature-media">
-      <img src="{{ '/assets/img/projects/project-resilience.svg' | relative_url }}" alt="Stylized global grid map of community resilience to floods, droughts, and extreme temperatures" loading="lazy">
+      <img src="{{ '/assets/img/projects/project-urbanization.svg' | relative_url }}" alt="Stylized urban expansion motif with city blocks and radar scan lines" loading="lazy">
     </div>
     <div class="yl-feature-body">
-      <p class="yl-feature-meta"><span class="yl-status yl-status-ongoing">Ongoing</span> · global gridded assessment · remote sensing, disaster records, random forest, fuzzy logic</p>
-      <h3><a href="{{ '/projects/community-resilience-climate-extremes/' | relative_url }}">Community resilience to compound climate extremes</a></h3>
-      <p>Which communities can absorb floods, droughts, and extreme temperatures — and which cannot? This project integrates satellite observations and disaster records to map community resilience at high resolution worldwide, and examines the inequalities the maps reveal.</p>
-      <p class="yl-feature-links"><a href="{{ '/projects/community-resilience-climate-extremes/' | relative_url }}">Project overview</a></p>
-    </div>
-  </article>
-
-  <article class="yl-feature-card">
-    <div class="yl-feature-media">
-      <img src="{{ '/assets/img/projects/project-ntl.svg' | relative_url }}" alt="Stylized nighttime-light intensity map of an urban region" loading="lazy">
-    </div>
-    <div class="yl-feature-body">
-      <p class="yl-feature-meta"><span class="yl-status yl-status-ongoing">Ongoing</span> · urban and regional scale · monthly nighttime-light time series</p>
-      <h3><a href="{{ '/projects/nighttime-light-resilience/' | relative_url }}">Community resilience from nighttime lights</a></h3>
-      <p>Monthly nighttime-light observations record how places dim after climate and social shocks — and how quickly they brighten again. This project turns that longitudinal satellite signal into a measure of disturbance and recovery for cities and regions.</p>
-      <p class="yl-feature-links"><a href="{{ '/projects/nighttime-light-resilience/' | relative_url }}">Project overview</a></p>
+      <p class="yl-feature-meta"><span class="yl-status yl-status-published">Published</span> · large-scale and multi-city · optical–SAR fusion, deep learning</p>
+      <h3><a href="{{ '/projects/multisource-urbanization-monitoring/' | relative_url }}">Multisource urbanization monitoring</a></h3>
+      <p>How can optical and radar observations be combined to map urban land cover and expansion reliably — through clouds, shadows, and seasons — over decades? This line of work established fusion methods for impervious-surface mapping, road extraction, and intra-year urban renewal detection.</p>
+      <p class="yl-feature-links"><a href="{{ '/projects/multisource-urbanization-monitoring/' | relative_url }}">Project overview</a></p>
     </div>
   </article>
 
 </div>
 
-## selected publications
+## Selected publications
 
 <p class="yl-muted">Five representative studies; the full record is on the <a href="/publications/">publications page</a> and <a href="https://scholar.google.com/citations?user=5q5R47kAAAAJ&hl=en">Google Scholar</a>.</p>
 
@@ -97,7 +82,7 @@ I am a geospatial scientist studying how urbanization and climate extremes shape
 
 {% if site.data.metrics.enabled %}
 
-## research by the numbers
+## Research by the numbers
 
 <div class="yl-metrics" role="list">
   {% for m in site.data.metrics.items %}
@@ -115,12 +100,12 @@ I am a geospatial scientist studying how urbanization and climate extremes shape
 </p>
 {% endif %}
 
-## latest news
+## Latest news
 
 {% include news.liquid limit=true %}
 
 <p><a href="/news/">All news →</a></p>
 
-## collaboration
+## Collaboration
 
 I welcome conversations about research collaboration — particularly on GeoAI and remote sensing methods, urban environmental health, climate resilience, and sustainable urbanization — as well as interdisciplinary projects, joint grant proposals, and opportunities to mentor students. The best way to reach me is by <a href="mailto:yinyilin@hku.hk">email</a>; more options are on the <a href="/contact/">contact page</a>.

@@ -105,17 +105,10 @@ cv:
         url: https://doi.org/10.1038/s43247-024-01776-y
 
     Projects:
+      # Ongoing projects are intentionally not listed until the work can be shown
+      # publicly (matching the hidden `published: false` pages in _projects/).
       - name: Compound urban heat, air pollution, and mortality in Global North cities (published)
         summary: Satellite-derived compound exposure assessment linked to mortality via structural equation modelling and multiscale analysis.
-
-      - name: Community resilience to compound climate extremes (ongoing)
-        summary: Global high-resolution assessment integrating remote sensing and disaster records with random-forest spatialization and fuzzy-logic integration.
-
-      - name: Community resilience from nighttime lights (ongoing)
-        summary: Longitudinal monthly nighttime-light evidence of disturbance and recovery after climate and social shocks.
-
-      - name: Three-dimensional coastal flood risk (ongoing)
-        summary: Building-scale flood-depth and exposure mapping for older and vulnerable populations in Hong Kong and coastal cities.
 
       - name: Multisource urbanization monitoring (published)
         summary: Long-term urban land-cover and expansion mapping from optical and SAR time series with machine and deep learning.

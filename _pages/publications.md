@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Peer-reviewed publications, maintained in BibTeX and grouped by year.
 nav: true
 nav_order: 2

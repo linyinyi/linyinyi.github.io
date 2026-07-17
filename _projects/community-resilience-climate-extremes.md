@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false # hidden from the site until the work can be shown publicly
 title: Community resilience to compound climate extremes
 description: "Ongoing · Global gridded assessment of community resilience to floods, droughts, and extreme temperatures."
 img: assets/img/projects/project-resilience.svg
