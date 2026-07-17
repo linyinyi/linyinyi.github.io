@@ -21,7 +21,7 @@
   }
 </style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&amp;family=Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8C%8D&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=f0b101217084a90093badfe99ff9a7d1"> <link rel="canonical" href="https://linyinyi.github.io/projects/multisource-urbanization-monitoring/"> <script src="/assets/js/theme.js?v=7af685e2ba20b37fef545c97b8064050"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
     initTheme();
-  </script> </head> <body class="fixed-top-nav sticky-bottom-footer"> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Yinyi</span> Lin </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/research/">research </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item "> <a class="nav-link" href="/news/">news </a> </li> <li class="nav-item "> <a class="nav-link" href="/contact/">contact </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Multisource urbanization monitoring</h1> <p class="post-description">Published · Long-term urban land-cover and expansion mapping from optical and SAR time series with machine learning.</p> </header> <article> <p><span class="yl-status yl-status-published">Published</span></p> <p><strong>Research question.</strong> How can optical and synthetic-aperture-radar observations be combined to map urban land cover and expansion reliably — through clouds, shadows, and seasons — over decades?</p> <p><strong>Scale.</strong> Large-scale and multi-city analyses, from intra-year urban renewal to multi-decadal expansion.</p> <p><strong>Data.</strong> Optical (Landsat, Sentinel-2, WorldView), SAR (Sentinel-1, TerraSAR-X, PALSAR), and LiDAR observations.</p> <p><strong>Methods.</strong> Deep learning and machine learning for data fusion — including sparse representation, stacked autoencoders, U-Net variants, and fuzzy-set approaches — applied to impervious-surface mapping, road extraction, and urban change detection.</p> <p><strong>Key contributions.</strong> This line of work established multisource fusion approaches that map annual impervious-surface dynamics at large scale <a class="citation" href="#lin2020incorporating">(Lin et al., 2020)</a>, extract road networks from combined optical–SAR data <a class="citation" href="#lin2021leveraging">(Lin et al., 2021)</a>, improve urban mapping under cloud and shadow contamination <a class="citation" href="#lin2019improving">(Lin et al., 2019)</a>, and detect intra-year urban renewal in metropolitan cities <a class="citation" href="#lin2022intrayear">(Lin &amp; Zhang, 2022)</a>. The resulting long-term urbanization records support analyses of environmental consequences, from heat exposure to coastal ecosystem change.</p> <div class="yl-media-placeholder"> <img src="/assets/img/projects/project-urbanization.svg" alt="Stylized urban expansion motif with city blocks and radar scan lines" loading="lazy"> <p class="yl-muted yl-caption">Illustrative motif — replace with a figure from the study (assets/img/projects/).</p> </div> </article> <h2>References</h2> <div class="publications"> <h2 class="bibliography">2022</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100"> <a href="https://www.grss-ieee.org/events/igarss/" rel="external nofollow noopener" target="_blank">IGARSS</a> </abbr> </div> <div id="lin2022intrayear" class="col-sm-8"> <div class="title">Intra-Year Urban Renewal in Metropolitan Cities Using Time Series SAR and Optical Data</div> <div class="author"> <em>Yinyi Lin</em> and Hongsheng Zhang </div> <div class="periodical"> <em>In IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing Symposium</em>, Jul 2022 </div> <div class="periodical"> </div> <div class="links"> <a href="https://doi.org/10.1109/igarss46834.2022.9883504" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">lin2022intrayear</span><span class="p">,</span>
+  </script> </head> <body class="fixed-top-nav sticky-bottom-footer"> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="yl-navbar-logo" href="https://www.hku.hk/" aria-label="The University of Hong Kong" rel="external nofollow noopener" target="_blank"> <img class="only-light" src="/assets/img/logo/hku-logo.png" alt="The University of Hong Kong" height="30"> <img class="only-dark" src="/assets/img/logo/hku-logo-dark.png" alt="The University of Hong Kong" height="30"> </a> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Yinyi</span> Lin </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">About </a> </li> <li class="nav-item "> <a class="nav-link" href="/research/">Research </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">Publications </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">Teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/news/">News </a> </li> <li class="nav-item "> <a class="nav-link" href="/contact/">Contact </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Multisource urbanization monitoring</h1> <p class="post-description">Published · Long-term urban land-cover and expansion mapping from optical and SAR time series with machine learning.</p> </header> <article> <p><span class="yl-status yl-status-published">Published</span></p> <p><strong>Research question.</strong> How can optical and synthetic-aperture-radar observations be combined to map urban land cover and expansion reliably — through clouds, shadows, and seasons — over decades?</p> <p><strong>Scale.</strong> Large-scale and multi-city analyses, from intra-year urban renewal to multi-decadal expansion.</p> <p><strong>Data.</strong> Optical (Landsat, Sentinel-2, WorldView), SAR (Sentinel-1, TerraSAR-X, PALSAR), and LiDAR observations.</p> <p><strong>Methods.</strong> Deep learning and machine learning for data fusion — including sparse representation, stacked autoencoders, U-Net variants, and fuzzy-set approaches — applied to impervious-surface mapping, road extraction, and urban change detection.</p> <p><strong>Key contributions.</strong> This line of work established multisource fusion approaches that map annual impervious-surface dynamics at large scale <a class="citation" href="#lin2020incorporating">(Lin et al., 2020)</a>, extract road networks from combined optical–SAR data <a class="citation" href="#lin2021leveraging">(Lin et al., 2021)</a>, improve urban mapping under cloud and shadow contamination <a class="citation" href="#lin2019improving">(Lin et al., 2019)</a>, and detect intra-year urban renewal in metropolitan cities <a class="citation" href="#lin2022intrayear">(Lin &amp; Zhang, 2022)</a>. The resulting long-term urbanization records support analyses of environmental consequences, from heat exposure to coastal ecosystem change.</p> <div class="yl-media-placeholder"> <img src="/assets/img/projects/project-urbanization.svg" alt="Stylized urban expansion motif with city blocks and radar scan lines" loading="lazy"> <p class="yl-muted yl-caption">Illustrative motif — replace with a figure from the study (assets/img/projects/).</p> </div> </article> <h2>References</h2> <div class="publications"> <h2 class="bibliography">2022</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100"> <a href="https://www.grss-ieee.org/events/igarss/" rel="external nofollow noopener" target="_blank">IGARSS</a> </abbr> </div> <div id="lin2022intrayear" class="col-sm-8"> <div class="title">Intra-Year Urban Renewal in Metropolitan Cities Using Time Series SAR and Optical Data</div> <div class="author"> <em>Yinyi Lin</em> and Hongsheng Zhang </div> <div class="periodical"> <em>In IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing Symposium</em>, Jul 2022 </div> <div class="periodical"> </div> <div class="links"> <a href="https://doi.org/10.1109/igarss46834.2022.9883504" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">lin2022intrayear</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Intra-Year Urban Renewal in Metropolitan Cities Using Time Series SAR and Optical Data}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Lin, Yinyi and Zhang, Hongsheng}</span><span class="p">,</span>
   <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing Symposium}</span><span class="p">,</span>
@@ -69,7 +69,7 @@
   <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/jstars.2019.2907744}</span><span class="p">,</span>
   <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1109/jstars.2019.2907744}</span><span class="p">,</span>
   <span class="na">keywords</span> <span class="p">=</span> <span class="s">{geoai, urbanization}</span>
-<span class="p">}</span></code></pre></figure> </div> </div> </div> </li></ol> </div> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Yinyi Lin. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Last updated: July 16, 2026. </div> </footer> <script>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li></ol> </div> </div> </div> <footer class="sticky-bottom mt-5" role="contentinfo"> <div class="container"> © Copyright 2026 Yinyi Lin. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Last updated: July 17, 2026. </div> </footer> <script>
   window.alFolio = {
     compatBootstrap: false
   };
@@ -82,55 +82,41 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
   },{id: "nav-research",
-          title: "research",
+          title: "Research",
           description: "Four connected research themes — GeoAI and multisource remote sensing, urban environmental health, climate risk and community resilience, and sustainable urbanization.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/research/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "Peer-reviewed publications, maintained in BibTeX and grouped by year.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "Research projects spanning GeoAI methods, urban environmental health, climate resilience, and sustainable urbanization. Status labels distinguish published, ongoing, and developing work.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
         },{id: "nav-teaching",
-          title: "teaching",
+          title: "Teaching",
           description: "Courses taught at The University of Hong Kong, with an overview of topics, methods, and learning outcomes.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "Academic CV — also available as a PDF via the download button. Last updated: July 2026.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-news",
-          title: "news",
+          title: "News",
           description: "Publications, presentations, projects, teaching, and career updates.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/news/";
           },
         },{id: "nav-contact",
-          title: "contact",
+          title: "Contact",
           description: "How to reach me for research collaboration, mentoring, and academic opportunities.",
           section: "Navigation",
           handler: () => {
@@ -157,17 +143,7 @@ ninja.data = [{
           section: "News",},{id: "news-new-paper-in-npj-urban-sustainability-underestimated-mortality-risks-from-compound-urban-heat-and-air-pollution-islands-in-global-north-cities",
           title: 'New paper in npj Urban Sustainability: Underestimated mortality risks from compound urban heat...',
           description: "",
-          section: "News",},{id: "projects-three-dimensional-coastal-flood-risk",
-          title: 'Three-dimensional coastal flood risk',
-          description: "Ongoing · Building-scale flood exposure for older and vulnerable populations, from Hong Kong to global coastal cities.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/coastal-flood-risk-3d/";
-            },},{id: "projects-community-resilience-to-compound-climate-extremes",
-          title: 'Community resilience to compound climate extremes',
-          description: "Ongoing · Global gridded assessment of community resilience to floods, droughts, and extreme temperatures.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/community-resilience-climate-extremes/";
-            },},{id: "projects-compound-urban-heat-air-pollution-and-mortality",
+          section: "News",},{id: "projects-compound-urban-heat-air-pollution-and-mortality",
           title: 'Compound urban heat, air pollution, and mortality',
           description: "Published · Global North cities — quantifying the mortality burden of compound urban heat and air-pollution islands.",
           section: "Projects",handler: () => {
@@ -177,11 +153,6 @@ ninja.data = [{
           description: "Published · Long-term urban land-cover and expansion mapping from optical and SAR time series with machine learning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/multisource-urbanization-monitoring/";
-            },},{id: "projects-community-resilience-from-nighttime-lights",
-          title: 'Community resilience from nighttime lights',
-          description: "Ongoing · Longitudinal satellite evidence of how communities are disturbed by — and recover from — climate and social shocks.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/nighttime-light-resilience/";
             },},{id: "teachings-geog7142-big-data-and-gis-for-china-development-studies",
           title: 'GEOG7142: Big Data and GIS for China Development Studies',
           description: "Geospatial big data, remote sensing, and GIS methods applied to questions of urban and regional development in China.",
