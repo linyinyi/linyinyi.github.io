@@ -44,7 +44,7 @@ The four themes below build on one another. Methods developed under GeoAI and mu
     </div>
     <div class="yl-theme-media">
       <img src="{{ theme.image | relative_url }}" alt="" loading="lazy">
-      <p class="yl-muted yl-caption">Illustrative motif — replace with a study figure in <code>assets/img/research/</code>.</p>
+      <p class="yl-muted yl-caption">{{ theme.caption }}</p>
     </div>
   </div>
   <h3 class="yl-theme-subhead">Selected publications</h3>

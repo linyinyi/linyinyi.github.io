@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 70" fill="none" aria-hidden="true" focusable="false">
+  <!-- skyline -->
+  <g stroke="var(--global-theme-color)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 62 V34 h16 v28" />
+    <path d="M44 62 V22 h18 v40" />
+    <path d="M72 62 V40 h14 v22" />
+    <path d="M96 62 V28 h16 v34" />
+    <line x1="10" y1="62" x2="130" y2="62" />
+  </g>
+  <!-- pulse line -->
+  <path
+    d="M10 16 h30 l8 -8 l10 20 l8 -12 h64"
+    stroke="var(--global-highlight-color)"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>

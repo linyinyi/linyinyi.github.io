@@ -20,6 +20,7 @@ themes:
     methods: Deep learning and machine learning, data fusion, sparse representation, fuzzy-set approaches, Google Earth Engine, spatially explicit modelling
     scale: City to global; annual to intra-year time series
     image: /assets/img/research/theme-geoai.svg
+    caption: Multisource remote sensing data fusion
     keywords: [GeoAI, remote sensing, SAR, LiDAR, hyperspectral, nighttime lights, deep learning]
     bibfilter: geoai
     publications:
@@ -42,6 +43,7 @@ themes:
     methods: Satellite-derived exposure mapping, structural equation modelling, multiscale spatial analysis, health-registry linkage
     scale: Building and community scale to global city samples
     image: /assets/img/research/theme-health.svg
+    caption: Compound urban heat and air-pollution exposure
     keywords: [urban heat, air pollution, compound exposure, mortality, environmental inequality, ageing populations]
     bibfilter: urban-health
     publications:
@@ -64,6 +66,7 @@ themes:
     methods: Disaster-impact spatialization, random forest, fuzzy-logic integration, time-series analysis of nighttime lights, high-resolution risk assessment
     scale: Community to global (multi-kilometre grids); monthly to multi-decadal
     image: /assets/img/research/theme-resilience.svg
+    caption: Disturbance and recovery under climate extremes
     keywords: [floods, droughts, extreme temperature, compound risk, community resilience, climate adaptation, environmental justice]
     bibfilter: climate-resilience
     publications:
@@ -84,6 +87,7 @@ themes:
     methods: Optical–SAR time-series analysis, impervious-surface mapping, change detection, urban growth monitoring
     scale: Neighbourhood renewal to global expansion; 1990s to present
     image: /assets/img/research/theme-urbanization.svg
+    caption: Urban expansion and land-cover change over time
     keywords: [urban expansion, land-cover change, impervious surface, urban–rural inequality, sustainable cities]
     bibfilter: urbanization
     publications:

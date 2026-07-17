@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 70" fill="none" aria-hidden="true" focusable="false">
+  <!-- water -->
+  <g stroke="var(--global-theme-color)" stroke-width="3" stroke-linecap="round">
+    <path d="M12 52 q10 -9 20 0 t20 0 t20 0 t20 0 t20 0" />
+    <path d="M22 62 q10 -7 20 0 t20 0 t20 0 t20 0" opacity="0.55" />
+  </g>
+  <!-- recovery curve with arrowhead -->
+  <g stroke="var(--global-highlight-color)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 40 C 48 42 78 34 112 12" />
+    <path d="M101 13 l11 -1 l-3 11" />
+  </g>
+</svg>

@@ -38,8 +38,8 @@ I am a geospatial scientist studying how urbanization and climate extremes shape
   {% for theme in site.data.research.themes %}
   <a class="yl-focus-card" role="listitem" href="{{ '/research/' | relative_url }}#{{ theme.slug }}">
     <h3>{{ theme.title }}</h3>
-    <p>{{ theme.short }}</p>
-    <span class="yl-card-more" aria-hidden="true">Read more →</span>
+    {% capture theme_icon %}icons/{{ theme.slug }}.svg{% endcapture %}
+    <div class="yl-focus-icon" aria-hidden="true">{% include {{ theme_icon }} %}</div>
   </a>
   {% endfor %}
 </div>
