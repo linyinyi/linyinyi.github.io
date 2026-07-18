@@ -107,9 +107,16 @@ publishes `_site/` to the `gh-pages` branch. One-time repository setup:
 1. GitHub → Settings → Pages → Source: **Deploy from a branch** → Branch: **gh-pages** / root.
 2. Push to `main`; the first deploy creates the `gh-pages` branch.
 
-Other workflows: `prettier` (format check), `broken-links` (lychee), `render-cv`
-(CV PDF), `update-citations` (scheduled Scholar refresh, isolated from deploys),
-`axe` (manual accessibility audit), `upgrade-check` (template drift audit).
+Other workflows: `prettier` (format check), `broken-links-site` (lychee check of
+every internal link in the rendered site, after each deploy), `render-cv` (CV PDF),
+`update-citations` (scheduled Scholar refresh, isolated from deploys), `axe`
+(manual accessibility audit), `upgrade-check` (template drift audit).
+
+Note: the deploy workflow only triggers when files matching its `paths:` filter
+change (`.md`, `.yml`, `.liquid`, `.svg`, `.scss`, `.bib`, `assets/**`, …). If you
+add a new file type and a push doesn't deploy, extend the filter in
+`.github/workflows/deploy.yml` or trigger it manually via Actions → Deploy site
+→ Run workflow.
 
 ### Custom domain
 
