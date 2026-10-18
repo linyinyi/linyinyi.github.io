@@ -11,11 +11,11 @@ related_publications: true
 
 **Research question.** Which communities worldwide can absorb and recover from floods, droughts, and extreme temperatures — and where do compound extremes overwhelm local capacity?
 
-**Scale.** Global, high-resolution gridded assessment (on the order of 10 km). <!-- TODO: confirm the grid resolution against the published paper -->
+**Scale.** Global, high-resolution gridded assessment at 10 km resolution.
 
 **Data.** Multisource remote sensing, historical disaster records, and socioeconomic indicators.
 
-**Methods.** Random-forest spatialization of recorded disaster impacts, fuzzy-logic integration of hazard, exposure, and recovery components into a resilience measure, and inequality analysis across regions and income groups. <!-- TODO: confirm these method details against the published paper -->
+**Methods.** Random-forest spatialization of recorded disaster impacts; hazard-specific resilience indices that weigh those impacts against population and GDP; fuzzy-logic integration of resilience to floods, droughts, and extreme temperatures into a single index; and rank-correlation and inequality analysis across regions, urban–rural settings, and income groups.
 
 **What the project examines.** Beyond mapping resilience, the project asks where resilience is unequally distributed and whether apparent gains in one dimension (for example, flood protection) trade off against others. Because much of the evidence is correlational, interpretation is deliberately cautious: the maps identify where communities appear more or less able to recover, not the causal mechanisms behind that capacity.
 

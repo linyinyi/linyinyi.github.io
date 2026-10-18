@@ -86,7 +86,7 @@ I am a geospatial scientist studying how urbanization and climate extremes shape
 
 ## Selected publications
 
-<p class="yl-muted">Six representative studies; the full record is on the <a href="/publications/">publications page</a> and <a href="https://scholar.google.com/citations?user=5q5R47kAAAAJ&hl=en">Google Scholar</a>.</p>
+<p class="yl-muted">Four representative studies; the full record is on the <a href="/publications/">publications page</a> and <a href="https://scholar.google.com/citations?user=5q5R47kAAAAJ&hl=en">Google Scholar</a>.</p>
 
 {% include selected_papers.liquid %}
 
