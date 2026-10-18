@@ -48,6 +48,18 @@ I am a geospatial scientist studying how urbanization and climate extremes shape
 
   <article class="yl-feature-card">
     <div class="yl-feature-media">
+      <img src="{{ '/assets/img/projects/project-resilience.svg' | relative_url }}" alt="Stylized global grid motif representing community resilience to compound climate extremes" loading="lazy">
+    </div>
+    <div class="yl-feature-body">
+      <p class="yl-feature-meta"><span class="yl-status yl-status-published">Published</span> · global, high-resolution · multisource remote sensing, fuzzy-logic modelling</p>
+      <h3><a href="{{ '/projects/community-resilience-climate-extremes/' | relative_url }}">Community resilience to compound climate extremes</a></h3>
+      <p>Where can communities cope with floods, droughts, and extreme temperatures at once — and does resilience to one hazard come at the expense of another? This work builds a high-resolution global Community-Climate Resilience Index from satellite data and geocoded disaster records, revealing regional and urban–rural inequality and trade-offs between hazards, especially in suburban and rural Sub-Saharan Africa.</p>
+      <p class="yl-feature-links"><a href="https://doi.org/10.1029/2026EF008153">Paper in <em>Earth's Future</em> (2026)</a></p>
+    </div>
+  </article>
+
+  <article class="yl-feature-card">
+    <div class="yl-feature-media">
       <img src="{{ '/assets/img/projects/project-heat-health.svg' | relative_url }}" alt="Stylized map of compound urban heat and air-pollution exposure across a city" loading="lazy">
     </div>
     <div class="yl-feature-body">
@@ -74,7 +86,7 @@ I am a geospatial scientist studying how urbanization and climate extremes shape
 
 ## Selected publications
 
-<p class="yl-muted">Five representative studies; the full record is on the <a href="/publications/">publications page</a> and <a href="https://scholar.google.com/citations?user=5q5R47kAAAAJ&hl=en">Google Scholar</a>.</p>
+<p class="yl-muted">Six representative studies; the full record is on the <a href="/publications/">publications page</a> and <a href="https://scholar.google.com/citations?user=5q5R47kAAAAJ&hl=en">Google Scholar</a>.</p>
 
 {% include selected_papers.liquid %}
 

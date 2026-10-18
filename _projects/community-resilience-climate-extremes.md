@@ -1,26 +1,31 @@
 ---
 layout: page
-published: false # hidden from the site until the work can be shown publicly
 title: Community resilience to compound climate extremes
-description: "Ongoing · Global gridded assessment of community resilience to floods, droughts, and extreme temperatures."
+description: "Published · Global — mapping inequality and trade-offs in community resilience to floods, droughts, and extreme temperatures."
 img: assets/img/projects/project-resilience.svg
 importance: 2
-related_publications: false
+related_publications: true
 ---
 
-<p><span class="yl-status yl-status-ongoing">Ongoing</span> <!-- TODO: update status (e.g., "Under review") when the manuscript's status can be stated publicly --></p>
+<p><span class="yl-status yl-status-published">Published</span></p>
 
 **Research question.** Which communities worldwide can absorb and recover from floods, droughts, and extreme temperatures — and where do compound extremes overwhelm local capacity?
 
-**Scale.** Global, high-resolution gridded assessment (on the order of 10 km).
+**Scale.** Global, high-resolution gridded assessment (on the order of 10 km). <!-- TODO: confirm the grid resolution against the published paper -->
 
 **Data.** Multisource remote sensing, historical disaster records, and socioeconomic indicators.
 
-**Methods.** Random-forest spatialization of recorded disaster impacts, fuzzy-logic integration of hazard, exposure, and recovery components into a resilience measure, and inequality analysis across regions and income groups.
+**Methods.** Random-forest spatialization of recorded disaster impacts, fuzzy-logic integration of hazard, exposure, and recovery components into a resilience measure, and inequality analysis across regions and income groups. <!-- TODO: confirm these method details against the published paper -->
 
 **What the project examines.** Beyond mapping resilience, the project asks where resilience is unequally distributed and whether apparent gains in one dimension (for example, flood protection) trade off against others. Because much of the evidence is correlational, interpretation is deliberately cautious: the maps identify where communities appear more or less able to recover, not the causal mechanisms behind that capacity.
 
+**Key findings.** The study introduces the Community-Climate Resilience Index (CCRI), which measures resilience to compound climate extremes simultaneously. Western Europe shows higher resilience, while South America, Africa, and Oceania show lower resilience. Urban areas are more resilient than rural areas but show weaker scaling effects. In most regions, resilience to floods, extreme temperature, and droughts is positively associated; negative associations — potential trade-offs — appear in some areas, especially suburban and rural Sub-Saharan Africa. The results support integrated, coordinated risk management for building resilience to multiple climate extremes in vulnerable areas, at local and global scales.
+
+**Publication.** {% cite lin2026global %}
+
 **Related published work.** A precursor line of research measured urban vegetation resilience to super typhoons in Hong Kong {% cite guo2022seasonal %}.
+
+**Team.** Led by Yinyi Lin with collaborators at The University of Hong Kong (see the author list of the paper).
 
 <div class="yl-media-placeholder">
   <img src="{{ '/assets/img/projects/project-resilience.svg' | relative_url }}" alt="Stylized global grid motif representing community resilience assessment" loading="lazy">

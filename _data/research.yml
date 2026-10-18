@@ -70,6 +70,7 @@ themes:
     keywords: [floods, droughts, extreme temperature, compound risk, community resilience, climate adaptation, environmental justice]
     bibfilter: climate-resilience
     publications:
+      - key: lin2026global
       - key: guo2022seasonal
       - key: liang2023timefrequency
 
