@@ -48,7 +48,7 @@ I am a geospatial scientist studying how urbanization and climate extremes shape
 
   <article class="yl-feature-card">
     <div class="yl-feature-media">
-      <img src="{{ '/assets/img/projects/project-resilience.svg' | relative_url }}" alt="Stylized global grid motif representing community resilience to compound climate extremes" loading="lazy">
+      <img src="{{ '/assets/img/publications/lin2026global-ccri-map.webp' | relative_url }}" alt="World map of the Community-Climate Resilience Index (CCRI): higher resilience in western Europe, lower across much of South America, Africa, and Oceania" width="1200" height="605" loading="lazy">
     </div>
     <div class="yl-feature-body">
       <p class="yl-feature-meta"><span class="yl-status yl-status-published">Published</span> · global, high-resolution · multisource remote sensing, fuzzy-logic modelling</p>
@@ -60,7 +60,7 @@ I am a geospatial scientist studying how urbanization and climate extremes shape
 
   <article class="yl-feature-card">
     <div class="yl-feature-media">
-      <img src="{{ '/assets/img/projects/project-heat-health.svg' | relative_url }}" alt="Stylized map of compound urban heat and air-pollution exposure across a city" loading="lazy">
+      <img src="{{ '/assets/img/publications/lin2026compound-fig2-exposure.webp' | relative_url }}" alt="World map of city populations' exposure to compound extreme heat and air pollution, largest in South and East Asia, with charts comparing the Global North and Global South" width="1200" height="926" loading="lazy">
     </div>
     <div class="yl-feature-body">
       <p class="yl-feature-meta"><span class="yl-status yl-status-published">Published</span> · Global North cities · satellite exposure mapping, structural equation modelling</p>
@@ -72,13 +72,13 @@ I am a geospatial scientist studying how urbanization and climate extremes shape
 
   <article class="yl-feature-card">
     <div class="yl-feature-media">
-      <img src="{{ '/assets/img/projects/project-urbanization.svg' | relative_url }}" alt="Stylized urban expansion motif with city blocks and radar scan lines" loading="lazy">
+      <img src="{{ '/assets/img/publications/lin2021leveraging-fig5-road-extraction.webp' | relative_url }}" alt="Sentinel-2 and Sentinel-1 image tiles beside road maps extracted by single-sensor U-Nets, the fused UU-Net, and OpenStreetMap" width="1200" height="841" loading="lazy">
     </div>
     <div class="yl-feature-body">
       <p class="yl-feature-meta"><span class="yl-status yl-status-published">Published</span> · large-scale and multi-city · optical–SAR fusion, deep learning</p>
       <h3><a href="{{ '/projects/multisource-urbanization-monitoring/' | relative_url }}">Multisource urbanization monitoring</a></h3>
       <p>How can optical and radar observations be combined to map urban land cover and expansion reliably — through clouds, shadows, and seasons — over decades? This line of work established fusion methods for impervious-surface mapping, road extraction, and intra-year urban renewal detection.</p>
-      <p class="yl-feature-links"><a href="{{ '/projects/multisource-urbanization-monitoring/' | relative_url }}">Project overview</a></p>
+      <p class="yl-feature-links"><a href="{{ '/projects/multisource-urbanization-monitoring/' | relative_url }}">Project overview</a> · <a href="https://doi.org/10.1016/j.jag.2021.102498">Figure from <em>JAG</em> (2021)</a></p>
     </div>
   </article>
 

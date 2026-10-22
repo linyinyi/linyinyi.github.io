@@ -19,8 +19,11 @@ themes:
       - How do we make deep-learning-based mapping transparent enough to support environmental policy?
     methods: Deep learning and machine learning, data fusion, sparse representation, fuzzy-set approaches, Google Earth Engine, spatially explicit modelling
     scale: City to global; annual to intra-year time series
-    image: /assets/img/research/theme-geoai.svg
-    caption: Multisource remote sensing data fusion
+    image: /assets/img/publications/lin2021leveraging-fig2-uunet.webp
+    image_width: 1200
+    image_height: 563
+    alt: Diagram of the UU-Net deep-learning architecture, with separate optical and SAR input branches merged into one road-extraction network
+    caption: "UU-Net fuses optical and SAR imagery to extract roads at large scale. Fig. 2 of Lin et al. (2021), <em>Int. J. Appl. Earth Obs. Geoinf.</em> (CC BY-NC-ND 4.0)."
     keywords: [GeoAI, remote sensing, SAR, LiDAR, hyperspectral, nighttime lights, deep learning]
     bibfilter: geoai
     publications:
@@ -42,8 +45,11 @@ themes:
       - Which communities face the greatest combined environmental burden, and why?
     methods: Satellite-derived exposure mapping, structural equation modelling, multiscale spatial analysis, health-registry linkage
     scale: Building and community scale to global city samples
-    image: /assets/img/research/theme-health.svg
-    caption: Compound urban heat and air-pollution exposure
+    image: /assets/img/publications/lin2026compound-fig1-compound-islands.webp
+    image_width: 1200
+    image_height: 1478
+    alt: World maps and charts showing how often and how intensely urban heat islands and air-pollution islands co-occur in 327 cities, comparing the Global North and Global South
+    caption: "Compound frequency and intensity of urban heat and air-pollution islands in 327 cities, 2003–2020. Fig. 1 of Lin et al. (2026), <em>npj Urban Sustainability</em> (CC BY-NC-ND 4.0)."
     keywords: [urban heat, air pollution, compound exposure, mortality, environmental inequality, ageing populations]
     bibfilter: urban-health
     publications:
@@ -65,33 +71,14 @@ themes:
       - Can longitudinal satellite observations reveal resilience — disturbance and recovery — directly?
     methods: Disaster-impact spatialization, random forest, fuzzy-logic integration, time-series analysis of nighttime lights, high-resolution risk assessment
     scale: Community to global (multi-kilometre grids); monthly to multi-decadal
-    image: /assets/img/research/theme-resilience.svg
-    caption: Disturbance and recovery under climate extremes
+    image: /assets/img/publications/lin2026global-ccri-map.webp
+    image_width: 1200
+    image_height: 605
+    alt: "World map of the Community-Climate Resilience Index (CCRI): higher resilience in western Europe, lower across much of South America, Africa, and Oceania"
+    caption: "Community-Climate Resilience Index (CCRI) worldwide. From Lin et al. (2026), <em>Earth's Future</em> (CC BY-NC 4.0)."
     keywords: [floods, droughts, extreme temperature, compound risk, community resilience, climate adaptation, environmental justice]
     bibfilter: climate-resilience
     publications:
       - key: lin2026global
       - key: guo2022seasonal
       - key: liang2023timefrequency
-
-  - slug: urbanization
-    title: Sustainable urbanization
-    short: Long-term evidence on urban growth and its environmental consequences.
-    summary: >
-      Understanding how cities expand — and at what environmental and social cost — requires
-      long, consistent observation. I map urban land-cover change and expansion from optical
-      and SAR time series, monitor urban growth across regions, and connect these patterns to
-      urban–rural inequalities and the policy questions of sustainable, resilient cities.
-    questions:
-      - How do urban expansion and renewal unfold across decades, and what do they displace?
-      - Which spatial evidence do policymakers need to steer urbanization toward sustainability?
-    methods: Optical–SAR time-series analysis, impervious-surface mapping, change detection, urban growth monitoring
-    scale: Neighbourhood renewal to global expansion; 1990s to present
-    image: /assets/img/research/theme-urbanization.svg
-    caption: Urban expansion and land-cover change over time
-    keywords: [urban expansion, land-cover change, impervious surface, urban–rural inequality, sustainable cities]
-    bibfilter: urbanization
-    publications:
-      - key: lin2022intrayear
-      - key: wei2024coastal
-      - key: loo2024cities

@@ -2,16 +2,16 @@
 layout: page
 permalink: /research/
 title: Research
-description: Four connected research themes — GeoAI and multisource remote sensing, urban environmental health, climate risk and community resilience, and sustainable urbanization.
+description: Three connected research themes — GeoAI and multisource remote sensing, urban environmental health, and climate risk and community resilience.
 nav: true
 nav_order: 1
 ---
 
 My research program asks a single connected question: **how do urbanization, climate extremes, and environmental inequality shape human health, community resilience, and sustainable development — and how can satellite observation and geospatial artificial intelligence answer that question at the scales where decisions are made?**
 
-The four themes below build on one another. Methods developed under GeoAI and multisource remote sensing supply the exposure and land-change evidence used in the three applied themes.
+The three themes below build on one another. Methods developed under GeoAI and multisource remote sensing supply the exposure and land-change evidence used in the two applied themes.
 
-<div class="yl-diagram" role="img" aria-label="Conceptual diagram: Earth observation feeds GeoAI and spatial modelling, which quantifies environmental exposure and climate shocks, which are linked to health and resilience outcomes, which inform policy and adaptation.">
+<div class="yl-diagram" role="img" aria-label="Conceptual diagram: Earth observation feeds GeoAI and spatial modelling, which quantifies environmental exposure and climate shocks, which are linked to health and resilience outcomes.">
   <div class="yl-diagram-step">Earth<br>observation</div>
   <div class="yl-diagram-arrow" aria-hidden="true">→</div>
   <div class="yl-diagram-step">GeoAI &amp;<br>spatial modelling</div>
@@ -19,8 +19,6 @@ The four themes below build on one another. Methods developed under GeoAI and mu
   <div class="yl-diagram-step">Environmental exposure<br>&amp; climate shocks</div>
   <div class="yl-diagram-arrow" aria-hidden="true">→</div>
   <div class="yl-diagram-step">Health &amp; resilience<br>outcomes</div>
-  <div class="yl-diagram-arrow" aria-hidden="true">→</div>
-  <div class="yl-diagram-step">Policy &amp;<br>adaptation</div>
 </div>
 
 {% for theme in site.data.research.themes %}
@@ -43,7 +41,7 @@ The four themes below build on one another. Methods developed under GeoAI and mu
       </p>
     </div>
     <div class="yl-theme-media">
-      <img src="{{ theme.image | relative_url }}" alt="" loading="lazy">
+      <img src="{{ theme.image | relative_url }}" alt="{{ theme.alt | escape }}"{% if theme.image_width %} width="{{ theme.image_width }}" height="{{ theme.image_height }}"{% endif %} loading="lazy">
       <p class="yl-muted yl-caption">{{ theme.caption }}</p>
     </div>
   </div>
