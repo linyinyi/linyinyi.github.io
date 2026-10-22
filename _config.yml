@@ -8,7 +8,7 @@ middle_name:
 last_name: Lin
 contact_note: >
   Email is the most reliable way to reach me.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: >- # ">-" folds the lines below and drops the final newline, which would otherwise break the Schema.org JSON-LD
   Yinyi Lin is a geospatial scientist at The University of Hong Kong whose research integrates
   remote sensing, GeoAI, environmental big data, and spatial analysis to study urban health,
   climate risk, and community resilience.
@@ -101,7 +101,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: /assets/img/og-preview.png # The site-wide (default for all links) Open Graph preview image
+og_image: https://linyinyi.github.io/assets/img/og-preview.png # The site-wide (default for all links) Open Graph preview image; must be an absolute URL for social previews
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -451,7 +451,7 @@ enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (https://github.com/orestbida/cookieconsent)
 enable_masonry: true # enables automatic project cards arrangement
-enable_math: true # enables math typesetting (uses MathJax)
+enable_math: false # enables math typesetting (uses MathJax); off because no page uses math
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
